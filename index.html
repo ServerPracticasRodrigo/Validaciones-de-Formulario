@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica validaciones</title>
+    <link rel="stylesheet" href="./estilos .css">
+</head>
+<body>
+    <form>
+        <label >Nombre de usuario</label>
+        <input type="email"  minlength="12" maxlength="20" required spellcheck="true" 
+            placeholder="Ingrese su correo" pattern="[a-zA-Z|+" title="Favor de verificar"> <br><br>
+        <label >Password</label>
+        <input type="text"  minlength="10" maxlength="10" required spellcheck="true"
+            placeholder="introduce su clave" pattern="[a-z]{5}[0-9]{5}" title="intentelo de nuevo"><br><br> 
+        <label >Nombre</label>
+        <input type="text"  minlength="2" maxlength="10" required spellcheck="true"
+            placeholder="se requiere su nombre" pattern="[a-zA-Z]+" title="favor de verificar"><br><br>
+        <label >Apellido Paterno</label>
+        <input type="text"  minlength="3" maxlength="12" required spellcheck="true"
+            placeholder="ingrese su apellido paterno" pattern="[a-zA-Z]+" title="vuelva a intentarlo"><br><br>
+        <label >Apellido Materno</label>
+        <input type="text" minlength="3" maxlength="12" required spellcheck="true"
+            placeholder="ingresa su apellido materno" pattern="[a-zA-Z]+" title="vuelva a intentarlo"><br><br>
+        <label >Direccion</label>
+        <input type="tel" minlength="10" maxlength="10" required spellcheck="true"
+            placeholder="ingresa su numero de telefono" pattern="[0-9]+" title="vuelva a intentarlo"><br><br>
+        <button type="submit">enviar</button>
+    </form>
+    <br>
+    <img src="cap3.png" alt="validacion p1" width="1350" height="800">
+</body>
+</html>
